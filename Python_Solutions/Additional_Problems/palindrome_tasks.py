@@ -4,8 +4,9 @@ Write a function that accepts a string and returns True if string is palindromic
 
 Extra: Write at least 3 unit tests for this function
 """
+##sanitize the input
 
-def palindrome_check(str):
+def palindrome_check(str: str) -> bool:
     if str == str[::-1]:
         return True
     else:

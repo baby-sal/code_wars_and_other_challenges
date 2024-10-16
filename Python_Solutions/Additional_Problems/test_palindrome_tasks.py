@@ -17,4 +17,4 @@ class TestPalindromeFunc(TestCase):
 
     def test_not_palindrome(self):
         result = palindrome_check("1234")
-        self.assertEqual(result, False)
+        self.assertFalse(result)#checks that there is False result
