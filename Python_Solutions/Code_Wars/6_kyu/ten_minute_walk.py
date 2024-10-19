@@ -26,3 +26,7 @@ def ten_minute_walk(walk):
 
 if __name__ == "__main__":
     print(ten_minute_walk(['n','n','n','s','n','s','n','s','n','w']))
+
+# Other solution:
+# def isValidWalk(walk):
+#     return len(walk) == 10 and walk.count('n') == walk.count('s') and walk.count('e') == walk.count('w')
