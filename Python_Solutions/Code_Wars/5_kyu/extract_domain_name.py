@@ -17,7 +17,7 @@ def domain_name(url):
         left = right.rsplit('.',-1)
         return left[0]
     else:
-        return url.rsplit('.',-1)
+        return url.rsplit('.',-1)[0]
 
 
 print(domain_name("http://www.zombie-bites.com" ))
