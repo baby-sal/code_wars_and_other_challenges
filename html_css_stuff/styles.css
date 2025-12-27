@@ -1,3 +1,33 @@
 h1 {
+    color: pink;
+  }
+  
+  p,
+  li {
+    color: yellowgreen
+  }
+
+  .special {
+    color: orange;
+    font-weight: bold;
+  }
+
+  li em {
+    color: rebeccapurple;
+  }
+
+  h1 + p {
+    font-size: 200%;
+  }
+
+  a:link {
     color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
